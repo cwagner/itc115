@@ -43,6 +43,7 @@ public class Product {
 	}
 	
 	//other methods
+	@Override
 	public String toString() {
 		return "Product code: " + productCode + "\nDescription: " + description + 
 				"\nPrice: " + this.getPriceFormatted();
